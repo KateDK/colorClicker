@@ -32,6 +32,7 @@ static defaultProps = {
     return (
       <div className="ColorWrapper" style={divStyle}>
         {colors.map(color => (<Button color={color} value={color} onClick={this.onClick} key={color}/>))}
+        <Button value="White" onClick={this.onClick}/>
       </div>
     );
   }

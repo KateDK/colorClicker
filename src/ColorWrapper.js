@@ -27,8 +27,11 @@ class ColorWrapper extends React.Component {
 
     return (
       <div className="ColorWrapper" style={divStyle}>
-        Im a div!
-        <Button color="red" message="Red" onClick={()=>console.log("REEEEEED")}/>
+
+        <Button color="PaleVioletRed" message="PaleVioletRed" onClick={this.onClick}/>
+        <Button color="PaleGreen" message="PaleGreen	" onClick={this.onClick}/>
+        <Button color="Plum" message="Plum" onClick={this.onClick}/>
+        <Button color="LightSkyBlue" message="LightSkyBlue" onClick={this.onClick}/>
       </div>
     );
   }

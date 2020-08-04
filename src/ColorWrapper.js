@@ -15,6 +15,10 @@ class ColorWrapper extends React.Component {
       padding: 5,
       border:"2px solid black",
       margin:"auto",
+      display:"flex",
+      flexDirection:"row",
+      justifyContent:"center",
+      alignItems:"center",
     };
 
     return (

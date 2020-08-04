@@ -5,6 +5,16 @@ class ColorWrapper extends React.Component {
     backgroundColor: "white",
   }
   render(){
+    const {backgroundColor} =this.state;
+    const divStyle = {
+      backgroundColor: backgroundColor,
+      width: "99%",
+      height: 600,
+      lineHeight: 20,
+      padding: 5,
+      border:"2px solid black",
+      margin:"auto",
+    };
     return (
       <div className="ColorWrapper">
         Im a div!

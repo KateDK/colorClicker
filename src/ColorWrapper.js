@@ -1,6 +1,9 @@
 import React from 'react';
 
 class ColorWrapper extends React.Component {
+  state={
+    backgroundColor: "white",
+  }
   render(){
     return (
       <div className="ColorWrapper">

@@ -15,8 +15,9 @@ class ColorWrapper extends React.Component {
       border:"2px solid black",
       margin:"auto",
     };
+
     return (
-      <div className="ColorWrapper">
+      <div className="ColorWrapper" style={divStyle}>
         Im a div!
       </div>
     );

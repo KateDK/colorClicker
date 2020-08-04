@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './Button';
 
 class ColorWrapper extends React.Component {
   state={
@@ -19,6 +20,7 @@ class ColorWrapper extends React.Component {
     return (
       <div className="ColorWrapper" style={divStyle}>
         Im a div!
+        <Button color="red" message="Red" onClick={()=>console.log("REEEEEED")}/>
       </div>
     );
   }

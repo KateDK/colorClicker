@@ -5,6 +5,9 @@ class ColorWrapper extends React.Component {
   state={
     backgroundColor: "white",
   }
+static defaultProps = {
+  colors: ["PaleVioletRed","PaleGreen","Plum","LightSkyBlue"]
+}
 
   onClick = (color)=> {
     this.setState({backgroundColor:color});

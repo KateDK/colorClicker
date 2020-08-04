@@ -5,6 +5,10 @@ class ColorWrapper extends React.Component {
   state={
     backgroundColor: "white",
   }
+
+  onClick = (color)=> {
+    this.setState({backgroundColor:color});
+  }
   render(){
     const {backgroundColor} =this.state;
     const divStyle = {
